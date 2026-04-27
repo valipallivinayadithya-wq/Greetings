@@ -10,47 +10,63 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Times New Roman', Times, serif, sans-serif;
-            background-color: #fdf6f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
         }
 
         .card {
-            background: white;
-            padding: 50px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            background: linear-gradient(to bottom, #ffffff 0%, #faf9f7 100%);
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
             width: 100%;
             max-width: 800px;
             text-align: center;
+            border-top: 4px solid #d4696d;
         }
 
         h1 {
-            color: #e63939;
-            font-size: 36px;
-            margin-bottom: 20px;
+            color: #c2555a;
+            font-size: 42px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            color: #8b7d6b;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
         }
 
         p {
-            font-size: 18px;
-            color: #333333;
-            line-height: 1.6;
-            margin-bottom: 20px;
+            font-size: 16px;
+            color: #5a5a5a;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            font-weight: 400;
         }
 
         button {
             margin-top: 20px;
-            padding: 12px 24px;
+            padding: 14px 32px;
             border: none;
-            background-color: #48459d;
+            background: linear-gradient(135deg, #d4696d 0%, #c2555a 100%);
             color: white;
-            border-radius: 8px;
+            border-radius: 12px;
             cursor: pointer;
             font-size: 16px;
-            transition: 0.3s;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(212, 105, 109, 0.3);
         }
 
         button:hover {
-            background-color: #48459d;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 105, 109, 0.4);
+            background: linear-gradient(135deg, #c2555a 0%, #b24447 100%);
         }
     </style>
 </head>
